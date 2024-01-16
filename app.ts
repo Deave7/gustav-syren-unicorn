@@ -10,3 +10,13 @@ const testObject = {
 }
 
 console.log(testObject)
+
+const stringFunction = (string: string): string => {
+    const hello: string = 'Hej '
+    return (hello + string)
+}
+
+animals.forEach(string => {
+    console.log(stringFunction(string))
+})
+

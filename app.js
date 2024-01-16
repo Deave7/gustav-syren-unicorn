@@ -7,3 +7,10 @@ const testObject = {
     bool: true,
 };
 console.log(testObject);
+const stringFunction = (string) => {
+    const hello = 'Hej ';
+    return (hello + string);
+};
+animals.forEach(string => {
+    console.log(stringFunction(string));
+});
